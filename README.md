@@ -1,25 +1,32 @@
-# Rocket-ML-Simulator
-Physics-informed machine learning model for rocket trajectory and apogee prediction
-# 🚀 Rocket ML Simulator
+# 🚀 Rocket Trajectory Prediction using Machine Learning
 
-Physics-informed machine learning model to predict rocket apogee.
+This project simulates rocket flight dynamics and predicts apogee (maximum altitude) using machine learning models.
 
-## Features
-- Synthetic physics-based dataset generation
-- Neural network regression
-- Instant apogee prediction
+## 🧠 Objective
+To explore how data-driven models can assist in predicting and optimizing rocket flight performance.
 
-## Input
-- Thrust (N)
-- Fuel (kg)
+## ⚙️ Methodology
+- Simulated rocket flight parameters (thrust, mass, drag)
+- Generated dataset based on simplified physics equations
+- Trained a neural network (MLP) to predict apogee
+- Evaluated model performance on test data
 
-## Output
-- Maximum altitude (Apogee)
+## 📊 Features
+- Physics-inspired simulation
+- ML-based prediction model
+- Data preprocessing and training pipeline
+- Visualization of predictions vs actual values
 
-## Tech
-Python, NumPy, Pandas, Scikit-learn
+## 🛠 Tech Stack
+- Python
+- Scikit-learn
+- NumPy / Pandas
+- Matplotlib
 
-## Future Work
-- Add drag physics
-- LSTM trajectory modeling
-- Reinforcement learning landing system
+## 🚀 Future Work
+- Reinforcement learning for trajectory optimization
+- Real-time control system modeling
+- Integration with propulsion and guidance systems
+
+## 📌 Status
+Active development – expanding simulation realism and model accuracy.
